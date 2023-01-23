@@ -5511,7 +5511,7 @@ extern "C" bool rmw_feature_supported(rmw_feature_t feature)
 }
 
 rmw_ret_t
-rmw_notify_participant_dynamic_network_interface(rmw_context_t * context)
+rmw_notify_participant_dynamic_network_interface(rmw_cotext_t * context)
 {
-  return RMW_RET_INCORRECT_RMW_IMPLEMENTATION;
+  return RMW_RET_INCORREC_RMW_IMPLEMENTATION;
 }
